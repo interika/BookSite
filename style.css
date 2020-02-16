@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap" rel="stylesheet');
+
+*{
+    box-sizing: border-box;
+}
+header,
+section{
+    overflow-x: hidden;
+}
+:root{
+--Snigle-font:'Snigle';
+--Rubic: 'Rubic';
+--Patua: 'Patua One';
+--Lobster: 'Lobster';
+--light-black: #2e2c2caf;
+--bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+--light-gray: rgba(255,255,255, .5)
+}
+header a{
+    font-family: var(--Patua);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+header{
+    background: #dd2476;
+    background: var(--bggradient);
+}
+header .navbar{
+    padding: 1em 5em;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: #fff;
+    min-width: 160px;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background: #fff;
+    
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    border-radius: 5px;
+    transition: linear 0.5s;
+}
+header .row{
+    padding: 22vmin 1vmin;
+}
+header .nav-item:last-child{
+    padding-right: 5em;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header .nav-brand{
+    padding-left: 8em;
+}
+header .nav-link:hover{
+color: #ddd;
+transition: linear 0.5s;
+}
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+header .row .col-md-7{
+    font-family: var(--Rubik);
+    color: white;
+    padding: 2em;
+}
+header .row .col-md-5 img{
+    width: 90%;
+}
+header .row .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+header.container .col-md-7 h1{
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0;
+}
+header.container .col-md-7 p{
+    padding: 1vmin 5vmin;
+}
+header.container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    text-decoration: none; 
+    color: #ddd;
+    transform: scale(1.05);
+    transition: linear 0.5s;
+}
+/*/\==========================================section1*/
+.section-1{
+    padding: 20vmin 0;
+}
+.section-1 .pray img{  
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 5vmin;
+    left: -11vmin;
+    background: white;
+    border-radius: 3px;
+    text-align-last: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0 25px 42px rgba(0,0,0,.2);
+    font-family: var(--Rubic);
+    z-index: 1;
+}
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+    color: rgba(0,0,0,.5);
+}
+/*/\==========================================section2*/
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(./i/third-bg.jpeg);
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+.cover .content{
+    background: rgba(0,0,0,.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content>h2{
+    font-family: var(--Patua);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+.cover .content>p{
+    color: #e5e5e5;
+    font-family: var(--Rubik);
+    font-size: 2vmin;
+}
+.rect{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0 rgba(255,0,0,0.349);
+}
+.numbers{
+    margin-top: -15vmin;
+}
+.rect h3{
+    font-size: 5rem;
+    color: tomato;
+}
+.rect p{
+    font-family: var(Patua);
+}
+.purchase>h2{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+    font-size: 4vmin;
+}
+.purchase>p{
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+   
+}
+.card{
+    text-align: center;
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+.cards .title{
+    background: rgba(208,241,241,0.199);
+    padding: 1.4reb 2.5rem;
+    font-size: 2vmim;
+}
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+.card-body .pricing{
+    background: rgba(208,241,241,0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+
+}
+.card-body .pricing > p{
+    font-size:7vmin;
+    padding: 1em 0.5em;
+    white-space: nowrap;
+}
+/*/\==========================================section3*/
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: var(--bggradient);
+}
+.section-3 .col-md-12 > h2{
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
+.section-3 .col-md-12 > p{
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 3vmin;
+}
+.section-3 .desktop{
+    background: #fff;
+    border-radius: 3em;
+    display: inline-block;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+} 
+.section-3 .desktop h3{
+    font-size: 3vmin;
+}
+.section-3 .desktop p{
+    font-size: 2vmin;
+}
+.platform{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+/*========================================================================= section 4 */
+.section-4 .container{
+    font-size: 6vmin;
+    padding-top: 4vmin;
+}
+.section-4 .team{
+    padding: 5vmin 4vmin;
+    display: flex;
+    align-items: center;
+}
+.section-4 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+.section-4 .card .card-text{
+padding: 0.5em;
+}
+.section-4 .card .card-body>a{
+    font-size: 1.5em;
+}
+/* .section-4 .carousel-item{
+    padding-left: 3rem;
+} */
+.border-radius{
+    border-radius: 70px ;
+    width: 60%;
+}
+.card-img-top{
+    margin: auto;
+}
+.card-img-top img{
+    border-radius: 70px;
+}
+
+/*========================================================footer*/
+footer{
+    background: rgba(0,0,0,0.8);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+footer p> span{
+    color: #ff512f
+}
+footer input{
+    border: none !important
+}
+footer input::placeholder{
+    color: white;
+}
+footer .input-group .input-group-text{
+    background: var(--bggradient);
+    border: none;
+}
+footer .column i{
+    color: #dd2476;
+    padding: 0 0.5em;
+}
+footer .column i:first-of-type{
+    padding-left: 0 ;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 100;
+    transition: all 1s ease;
+}
